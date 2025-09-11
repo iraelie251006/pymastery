@@ -1,6 +1,12 @@
-x = 10
-y = 3
-# floor division and modulo
-div = x % y
+# Write your code below and press Shift+Enter to execute
 
-print(div)
+squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
+new_squares = []
+
+i = 0
+
+while (i < len(squares)) and (squares[i] == 'orange'):
+    new_squares.append(squares[i])
+    i += 1
+    
+print(new_squares)
